@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "Prefix";
+const prefix = "1";
 /////////////////////////
 ////////////////////////
 
@@ -313,8 +313,8 @@ function play(guild, song) {
 
 
 
-const adminprefix = "Prefix";
-const devs = ['id'];
+const adminprefix = "1";
+const devs = ['503547627346984960'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
